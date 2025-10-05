@@ -1,0 +1,51 @@
+.ejercicio-container {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  
+
+}
+
+.ejercicio-titulo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.perfiles-ficha {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 450px;
+
+}
+
+.nombre-perfil {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.perfil-imagen {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.info-perfil {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.info-perfil li {
+  margin-bottom: 8px;
+
+}
+
+.info-perfil li:last-child {
+  margin-bottom: 0;
+}
